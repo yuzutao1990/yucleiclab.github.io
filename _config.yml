@@ -1,3 +1,48 @@
-title: Yucleic Lab
-description: Advancing functional genomics and drug discovery.
-theme: minima  # You can change this later
+title: "Yucleic Lab"
+description: "Research in nucleic acids, functional genomics, and drug design"
+baseurl: ""  
+url: "https://yucleiclab.github.io"
+
+# Use Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins (required for Minimal Mistakes)
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-toc
+
+# Navigation Menu
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Members"
+    url: /members/
+  - title: "Publications"
+    url: /publications/
+  - title: "Join Us"
+    url: /join-us/
+
+# Collections (for dynamic content)
+collections:
+  research:
+    output: true
+  members:
+    output: true
+  publications:
+    output: true
+
+# Footer links
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yuzutao1990"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:zutao_yu@163.com"
