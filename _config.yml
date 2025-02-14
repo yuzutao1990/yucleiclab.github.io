@@ -43,9 +43,12 @@ collections:
 # Footer links
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/yuzutao1990"
+    - label: "ASTAR"
+      icon: "fas fa-building"
+      url: "https://www.a-star.edu.sg/"
+    - label: "GIS"
+      icon: "fas fa-laboratory"
+      url: "https://www.a-star.edu.sg/gis"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:zutao_yu@163.com"
