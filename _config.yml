@@ -40,6 +40,7 @@ collections:
   publications:
     output: true
 
+
 # Footer links
 footer:
   links:
