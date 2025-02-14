@@ -47,7 +47,7 @@ footer:
       icon: "fas fa-building"
       url: "https://www.a-star.edu.sg/"
     - label: "GIS"
-      icon: "fas fa-laboratory"
+      icon: "<fa-solid fa-dna"
       url: "https://www.a-star.edu.sg/gis"
     - label: "Email"
       icon: "fas fa-envelope"
