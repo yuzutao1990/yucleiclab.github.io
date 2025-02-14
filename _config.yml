@@ -30,6 +30,9 @@ navigation:
 
 # Collections (for dynamic content)
 collections:
+  pages:
+    output: true
+    permalink: /:path/
   research:
     output: true
   members:
