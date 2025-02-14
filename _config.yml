@@ -1,7 +1,7 @@
 title: "Yucleic Lab"
 description: "Research in nucleic acids, functional genomics, and drug design"
 baseurl: ""  
-url: "https://yucleiclab.github.io"
+url: "https://www.yucleiclab.com"
 
 # Use Minimal Mistakes theme
 remote_theme: "mmistakes/minimal-mistakes"
