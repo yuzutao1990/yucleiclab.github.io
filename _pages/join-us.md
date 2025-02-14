@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Join Yucleic Lab"
 permalink: /join-us/
 ---
