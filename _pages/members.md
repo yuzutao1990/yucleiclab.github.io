@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Meet the Team"
 permalink: /members/
 ---
