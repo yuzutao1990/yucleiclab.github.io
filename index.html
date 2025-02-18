@@ -12,45 +12,45 @@
                 .then(response => response.text())
                 .then(data => document.querySelector(element).innerHTML = data);
         }
+
+        // Load header and footer after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHTML('#header', 'partials/header.html');
+            loadHTML('#footer', 'partials/footer.html');
+        });
     </script>
 </head>
 <body>
-    <!-- Load Header -->
+    <!-- The header and footer will be inserted dynamically here -->
     <div id="header"></div>
 
-<!-- Home Section -->
-<section id="home" class="hero">
-    <div class="container">
-        <!-- Centered Welcome Text -->
-        <div style="text-align: center; margin-top: 100px;">
-            <h2>Welcome to Yucleic Lab</h2>
-            <p style="font-size: 2em;">We specialize in Nucleic Acids targeting research, developing innovative approaches to study DNA & RNA interactions and design DNA & RNA-targeted therapeutics.</p>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- Centered Welcome Text -->
+            <div style="text-align: center; margin-top: 100px;">
+                <h2>Welcome to Yucleic Lab</h2>
+                <p style="font-size: 2em;">We specialize in Nucleic Acids targeting research, developing innovative approaches to study DNA & RNA interactions and design DNA & RNA-targeted therapeutics.</p>
+            </div>
+
+            <!-- Image Below Text -->
+            <img src="assets/images/nucleic_acids.jpg" alt="Nucleic Acids Structure"
+                 style="width: 100%; height: auto; max-height: 50vh; display: block; margin: 40px auto;">
+
+            <!-- Lab Description Below Image -->
+            <p style="margin-top: 40px; text-align: justify; max-width: 900px; margin-left: auto; margin-right: auto; font-size: 2em;">
+                The Yu Lab is a chemical biology lab dedicated to translational research targeting cellular nucleic acids. 
+                We integrate functional genomics, chemical biology, and molecular pharmacology to advance RNA- and DNA-targeted 
+                drug discovery. Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective 
+                regulation, paving the way for rational drug design. By leveraging cutting-edge gene-targeting strategies, structural 
+                biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic 
+                targets, addressing diseases linked to genomic dysregulation and undruggable pathways.
+            </p>
+
+            <a href="research.html" class="btn">Learn More</a>
         </div>
+    </section>
 
-        <!-- Image Below Text -->
-        <img src="assets/images/nucleic_acids.jpg" alt="Nucleic Acids Structure"
-             style="width: 100%; height: auto; max-height: 50vh; display: block; margin: 40px auto;">
-
-        <!-- Lab Description Below Image -->
-        <p style="margin-top: 40px; text-align: justify; max-width: 900px; margin-left: auto; margin-right: auto; font-size: 2em;">
-            The Yu Lab is a chemical biology lab dedicated to translational research targeting cellular nucleic acids. 
-            We integrate functional genomics, chemical biology, and molecular pharmacology to advance RNA- and DNA-targeted 
-            drug discovery. Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective 
-            regulation, paving the way for rational drug design. By leveraging cutting-edge gene-targeting strategies, structural 
-            biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic 
-            targets, addressing diseases linked to genomic dysregulation and undruggable pathways.
-        </p>
-
-        <a href="research.html" class="btn">Learn More</a>
-    </div>
-</section>
-
-    <!-- Load Footer -->
-    <div id="footer"></div>
-
-    <script>
-        loadHTML('#header', 'header.html');
-        loadHTML('#footer', 'footer.html');
-    </script>
+    <!-- The footer will be inserted dynamically here -->
 </body>
 </html>
