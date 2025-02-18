@@ -1,19 +1,24 @@
 /* General Styles */
-body {
+html, body {
+    height: 100%; /* Ensure the page takes full viewport height */
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     font-size: 1.2em;  /* Standardized font size */
     line-height: 1.6;  /* Improved readability */
-    margin: 0;
-    padding: 0;
     color: black;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Enables sticky footer */
 }
 
-/* Container for consistent width across all pages */
-.container {
-    max-width: 900px;
-    margin: auto;
-    text-align: center;
+/* Main container - Ensures content pushes footer down */
+.main-content {
+    flex: 1; /* Expands to push the footer down */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content if there's little text */
+    align-items: center;
 }
 
 /* Header Styling */
@@ -72,13 +77,14 @@ nav ul li a:hover {
     font-size: 1.2em;
 }
 
-/* Footer Styling */
+/* Footer Styling - Fixed to bottom */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom */
 }
 
 /* Social Media Icons */
@@ -163,3 +169,4 @@ footer p {
 .pub-link:hover {
     color: #0056b3;
     text-decoration: none;
+}
