@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Yucleic Lab</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Function to load header and footer from external files
+        function loadHTML(element, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.querySelector(element).innerHTML = data);
+        }
+
+        // Load header and footer after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHTML('#header', 'partials/header.html');
+            loadHTML('#footer', 'partials/footer.html');
+        });
+    </script>
+</head>
+<body>
+    <!-- The header will be inserted dynamically here -->
+    <div id="header"></div>
+
+    <!-- Join Us Section -->
+    <section id="join-us" class="section">
+        <div class="container" style="text-align: center;">
+            <h2>Join the Chemical Biology Lab at GIS</h2>
+            <p style="font-size: 1.2em; max-width: 900px; margin: 20px auto;">
+                The Yu Lab is dedicated to translational research targeting cellular nucleic acids.
+                We integrate functional genomics, chemical biology, and molecular pharmacology to advance RNA- and DNA-targeted drug discovery.
+                Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective regulation, paving the way for rational drug design.
+            </p>
+            <h3>Open Positions</h3>
+
+            <div class="job-listing" style="text-align: left; max-width: 800px; margin: 40px auto;">
+                <h4>Scientist / Senior Scientist (2-year contract, renewable)</h4>
+                <p><strong>Responsibilities:</strong></p>
+                <ul>
+                    <li>Design and execute functional genomics experiments, including CRISPR-, small molecule-, and ASO-based strategies.</li>
+                    <li>Develop chemical biology approaches to investigate DNA- and RNA-small molecule interactions.</li>
+                    <li>Integrate transcriptomics and genomics data to study small-molecule targeting.</li>
+                    <li>Collaborate with biologists and chemists to identify RNA-targeting therapeutics.</li>
+                    <li>Lead research projects, mentor junior researchers, and contribute to manuscripts and grant writing.</li>
+                </ul>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>PhD in Biology, Chemical Biology, Genetics, or related field.</li>
+                    <li>Experience in wet lab research, including molecular biology, RNA biology, or functional genomics.</li>
+                    <li>Background in nucleic acids research, CRISPR-dCas9/13, chemical design, or sequencing technologies.</li>
+                    <li>Strong scientific writing and project management skills.</li>
+                </ul>
+            </div>
+
+            <div class="job-listing" style="text-align: left; max-width: 800px; margin: 40px auto;">
+                <h4>Research Officer (2-year contract, renewable)</h4>
+                <p><strong>Responsibilities:</strong></p>
+                <ul>
+                    <li>Develop and optimize cellular assays for RNA-targeting strategies.</li>
+                    <li>Assist in designing experiments related to CRISPR, small-molecule screening, and ASO development.</li>
+                    <li>Perform molecular biology experiments, including RNA-seq library preparation.</li>
+                    <li>Maintain lab operations, manage consumables, and assist in research discussions.</li>
+                </ul>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>Degree in Biological Sciences, Chemical Biology, or related fields.</li>
+                    <li>Experience in molecular biology, cell culture, RNA biology, CRISPR, or sequencing technologies.</li>
+                    <li>Strong organizational skills and an eager-to-learn attitude.</li>
+                </ul>
+            </div>
+
+            <h3>Application Details</h3>
+            <p style="max-width: 800px; margin: 20px auto;">
+                To apply, please email your CV and a brief research interest statement to <strong>Zutao Yu (zy323@cam.ac.uk)</strong>
+                with the subject title “Scientist/Research Officer Application_ASTAR”.
+                More information about the lab can be found at <a href="https://www.yucleiclab.com" target="_blank">www.yucleiclab.com</a>
+                and <a href="https://scholar.google.com/citations?user=U0uXqjUAAAAJ" target="_blank">Google Scholar</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- The footer will be inserted dynamically here -->
+    <div id="footer"></div>
+</body>
+</html>
