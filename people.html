@@ -3,35 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab Name - People</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>People - Yucleic Lab</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Function to load header and footer from external files
+        function loadHTML(element, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.querySelector(element).innerHTML = data);
+        }
+
+        // Load header and footer after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHTML('#header', 'partials/header.html');
+            loadHTML('#footer', 'partials/footer.html');
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <h1>People</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="people.html">People</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="opportunities.html">Opportunities</a></li>
-                <li><a href="news.html">News</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- The header will be inserted dynamically here -->
+    <div id="header"></div>
+
+    <!-- Main Content -->
     <main>
-        <h2>Our Team</h2>
-        <p>Meet the members of our lab:</p>
-        <ul>
-            <li><strong>Principal Investigator:</strong> Dr. John Doe</li>
-            <li><strong>Postdoctoral Researchers:</strong> Jane Smith, Alex Brown</li>
-            <li><strong>Graduate Students:</strong> Emily Davis, Michael Lee</li>
-            <li><strong>Undergraduate Students:</strong> Sarah Johnson, David Wilson</li>
-        </ul>
+        <div class="container">
+            <h2>Our Team</h2>
+            <p>Meet the members of our lab:</p>
+
+            <!-- Principal Investigator -->
+            <div class="team-member">
+                <img src="assets/images/zutao.png" alt="Zutao Yu" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 10px;">
+                <h3>Zutao Yu</h3>
+                <p><strong>Principal Investigator</strong></p>
+                <p>Dr. Zutao Yu is the Principal Investigator of the Yucleic Lab. He specializes in nucleic acids targeting research, focusing on DNA & RNA interactions and drug discovery.</p>
+            </div>
+
+            <!-- Postdoctoral Researchers -->
+            <div class="team-member">
+                <h3>Postdoctoral Researchers</h3>
+                <ul>
+                    <li>Jane Smith</li>
+                    <li>Alex Brown</li>
+                </ul>
+            </div>
+
+            <!-- Graduate Students -->
+            <div class="team-member">
+                <h3>Graduate Students</h3>
+                <ul>
+                    <li>Emily Davis</li>
+                    <li>Michael Lee</li>
+                </ul>
+            </div>
+
+            <!-- Undergraduate Students -->
+            <div class="team-member">
+                <h3>Undergraduate Students</h3>
+                <ul>
+                    <li>Sarah Johnson</li>
+                    <li>David Wilson</li>
+                </ul>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2023 [Lab Name]. All rights reserved.</p>
-    </footer>
+
+    <!-- The footer will be inserted dynamically here -->
+    <div id="footer"></div>
 </body>
 </html>
