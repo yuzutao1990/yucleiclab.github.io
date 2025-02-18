@@ -1,0 +1,14 @@
+<footer>
+    <div class="container">
+        <div class="social-links">
+            <a href="https://twitter.com/ZutaoYu" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yzt-biochem/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/YuZutao" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.a-star.edu.sg/" target="_blank">ASTAR</a> | 
+            <a href="https://www.a-star.edu.sg/gis" target="_blank">GIS</a>
+        </div>
+        <p>&copy; 2025 YUcleic Lab. All rights reserved.</p>
+    </div>
+</footer>
