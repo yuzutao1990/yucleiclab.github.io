@@ -1,10 +1,19 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
+    font-size: 1.2em;  /* Standardized font size */
+    line-height: 1.6;  /* Improved readability */
     margin: 0;
     padding: 0;
     color: black;
     background-color: #f9f9f9;
+}
+
+/* Container for consistent width across all pages */
+.container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 /* Header Styling */
@@ -31,7 +40,7 @@ nav ul li {
 
 /* Increase font size of navigation menu items */
 nav ul li a {
-    font-size: 1.5em; /* 1.5 times larger */
+    font-size: 1.5em;
     color: white;
     text-decoration: none;
 }
@@ -40,13 +49,27 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Image Styling */
+/* Home Page Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Image Styling - Consistent across pages */
 .hero img {
-    width: 100%; /* Ensures the image matches the width of its container */
+    width: 66.67%;
     height: auto;
-    max-height: 50vh; /* Keeps aspect ratio and limits height */
+    max-height: 50vh;
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
+}
+
+/* Standardized Paragraph Styling */
+.lab-description {
+    text-align: justify;
+    max-width: 900px;
+    margin: 40px auto;
+    font-size: 1.2em;
 }
 
 /* Footer Styling */
@@ -85,6 +108,7 @@ footer {
 footer p {
     margin-top: 20px;
 }
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .team-member {
@@ -139,4 +163,3 @@ footer p {
 .pub-link:hover {
     color: #0056b3;
     text-decoration: none;
-}
