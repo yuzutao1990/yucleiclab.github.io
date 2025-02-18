@@ -85,3 +85,27 @@ footer {
 footer p {
     margin-top: 20px;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px !important;
+    }
+    
+    .team-member img {
+        width: 150px !important;
+    }
+}
+
+.team-card h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.team-card li {
+    padding: 8px 0;
+    font-size: 1.1em;
+}
