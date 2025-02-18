@@ -5,52 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications - Yucleic Lab</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Function to load header and footer from external files
+        function loadHTML(element, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.querySelector(element).innerHTML = data);
+        }
+
+        // Load header and footer after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHTML('#header', 'partials/header.html');
+            loadHTML('#footer', 'partials/footer.html');
+        });
+    </script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Yucleic Lab</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+    <!-- The header will be inserted dynamically here -->
+    <div id="header"></div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+            <h2 style="text-align: center; margin-bottom: 40px;">Publications</h2>
+
+            <!-- First Author Publications -->
+            <section class="pub-section">
+                <h3>Publications as First Author</h3>
+                <ul class="pub-list">
+                    <li><strong>Yu Zutao</strong>, Wang Z, He X, Balasubramanian S* (In preparation) Chem-X efficiently detects heterochromatin interacting drugs and elucidates mode of action of PRC2 inhibitors</li>
+                    <li><strong>Yu Zutao</strong>1, Spiegel J1, Melidis L, Hui W.W.I, Zhang X, Radzevičius A, Balasubramanian S* (2023) Chem-map: Profiling drug binding to chromatin in cells. <em>Nat. Biotechnol.</em> 41:1265. <a href="#" class="pub-link">F1000 recommended</a></li>
+                    <!-- Add other first author publications following the same pattern -->
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </section>
 
-    <!-- Publications Section -->
-    <section id="publications" class="section">
-        <div class="container">
-            <h2>Publications</h2>
-            <ul>
-                <li>Yu Zutao, Spiegel J, Melidis L, Hui W.W.I, Zhang X, Radzevičius A, Balasubramanian S* (2023) <strong>Chem-map: Profiling drug binding to chromatin in cells</strong>. <em>Nat. Biotechnol.</em>, 41:1265. <a href="#">F1000 recommended</a>.</li>
-                <li>Yu Zutao, Ai M, Samanta SK, Hashiya F, Taniguchi J, Asamitsu S, Ikeda S, Hashiya K, Bando T, Pandian GN*, Isaacs L*, Sugiyama H* (2020) <strong>A synthetic transcription factor pair mimic for precise recruitment of an epigenetic modifier to the targeted DNA locus</strong>. <em>Chem. Commun.</em>, 56:2296. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Pandian GN*, Hidaka T, Sugiyama H* (2019) <strong>Therapeutic gene regulation using pyrrole-imidazole polyamides</strong>. <em>Adv. Drug Deliv. Rev.</em>, 147:66. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Chen Z, Su Q, Ye S, Yuan H, Kuai M, Lv M, Tu Z, Yang X, Liu R, Hu G, Li Q* (2019) <strong>Dual inhibitors of RAF-MEK-ERK and PI3K-PDK1-AKT pathways</strong>. <em>Bioorg. Med. Chem.</em>, 27:944. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Guo C, Wei Y, Hashiya K, Bando T, Sugiyama H* (2018) <strong>Pip-HoGu: An Artificial Assembly with Cooperative DNA Recognition Capable of Mimicking Transcription Factor Pairs</strong>. <em>J. Am. Chem. Soc.</em>, 140:2426. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Hsieh WC, Asamitsu S, Hashiya K, Bando T, Ly DH*, Sugiyama H* (2018) <strong>Orthogonal gammaPNA Dimerization Domains Empower DNA Binders</strong>. <em>Chem. Eur. J.</em>, 24:14183. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Taniguchi J, Wei Y, Pandian GN, Hashiya K, Bando T, Sugiyama H* (2017) <strong>Antiproliferative and apoptotic activities of sequence-specific histone acetyltransferase inhibitors</strong>. <em>Eur. J. Med. Chem.</em>, 138:320. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Wang Z, Wu X, Hu G, Li Q* (2016) <strong>“One-Pot” Synthesis of 1-Phenyl-1H-benzimidazole Derivatives Facilitated by Fe</strong>. <em>Chin. J. Org. Chem.</em>, 36:1672. <a href="#">Link</a>.</li>
-                <li>Yu Zutao, Ye S, Hu G, Lv M, Tu Z, Zhou K, Li Q* (2015) <strong>The RAF-MEK-ERK pathway: targeting ERK to overcome obstacles to effective cancer therapy</strong>. <em>Future Med. Chem.</em>, 7:269. <a href="#">Link</a>.</li>
-            </ul>
-        </div>
-    </section>
+            <!-- Thesis & Book Chapter -->
+            <section class="pub-section">
+                <h3>Thesis & Book Chapter</h3>
+                <ul class="pub-list">
+                    <li><strong>Yu Zutao</strong> (2020) Artificial Assemblies with Cooperative DNA Recognition. <em>Springer Doctoral Theses</em>. doi: 10.1007/978-981-15-4423-1</li>
+                    <li><strong>Yu Zutao</strong>, Pandian G.N, Sugiyama H* (2023) Sequence-specific chromosomal DNA binders: an unfulfilled Promise? In: <em>Nucleic Acids in Medicinal Chemistry and Chemical Biology</em>. Wiley</li>
+                </ul>
+            </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Yucleic Lab. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-            </div>
+            <!-- Patent Applications -->
+            <section class="pub-section">
+                <h3>Patent Applications</h3>
+                <ul class="pub-list">
+                    <li><strong>Yu Zutao</strong>, Spegiel J, Balasubramanian S (2022) Methods for mapping compound binding sites. UK Patent GB2209984.0</li>
+                    <li>Hsieh WC, Sugiyama H, <strong>Yu Zutao</strong> (2020) Orthogonal gamma-PNA dimerization domains. US Patent 16/676,613</li>
+                    <li>Li Q, Hu G, Jiang D, <strong>Yu Zutao</strong> (2019) Di-substituted indole-2(1H)-one derivatives. China Patent CN106316923A</li>
+                </ul>
+            </section>
+
+            <!-- Co-Authored Publications -->
+            <section class="pub-section">
+                <h3>Recent Co-Authored Publications</h3>
+                <ul class="pub-list">
+                    <li>Esain-Garcia I, Kirchner A, ..., <strong>Yu Zutao</strong> (7th), ..., Balasubramanian S. (2024) G-quadruplex DNA structure regulates MYC transcription. <em>PNAS</em> 121:e2320240121</li>
+                    <li>Sahayasheela VJ, <strong>Yu Zutao</strong>, Hidaka T, Pandian GN, Sugiyama H (2023) Mitochondria and G-quadruplex evolution. <em>Trends Genet.</em> 39:15</li>
+                    <!-- Add other co-authored publications -->
+                </ul>
+            </section>
         </div>
-    </footer>
+    </main>
+
+    <!-- The footer will be inserted dynamically here -->
+    <div id="footer"></div>
 </body>
 </html>
