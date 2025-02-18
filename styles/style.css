@@ -23,8 +23,8 @@ html, body {
 
 /* Header Styling */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #003366; /* Deep blue background */
+    color: white; /* White text for contrast */
     padding: 20px 0;
     text-align: center;
 }
@@ -79,7 +79,7 @@ nav ul li a:hover {
 
 /* Footer Styling - Fixed to bottom */
 footer {
-    background-color: #333;
+    background-color: #003366; /* Deep blue background */
     color: white;
     text-align: center;
     padding: 20px 0;
