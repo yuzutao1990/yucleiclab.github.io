@@ -109,3 +109,34 @@ footer p {
     padding: 8px 0;
     font-size: 1.1em;
 }
+
+/* Author name styling */
+.author-name {
+    text-decoration: underline;
+    font-weight: normal;
+    color: #2c3e50;
+}
+
+/* Publication title styling */
+.publication-item strong {
+    font-weight: 700;
+    color: #1a365d;
+}
+
+/* Journal name styling */
+.publication-item em {
+    font-style: italic;
+    color: #4a5568;
+}
+
+/* Link styling */
+.pub-link {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+}
+
+.pub-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
