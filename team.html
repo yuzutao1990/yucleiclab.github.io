@@ -3,60 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team - Your Lab Name</title>
+    <title>People - Yucleic Lab</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Function to load header and footer from external files
+        function loadHTML(element, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.querySelector(element).innerHTML = data);
+        }
+
+        // Load header and footer after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHTML('#header', 'partials/header.html');
+            loadHTML('#footer', 'partials/footer.html');
+        });
+    </script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    <!-- The header will be inserted dynamically here -->
+    <div id="header"></div>
+
+    <!-- Main Content -->
+    <main>
         <div class="container">
-            <h1>Your Lab Name</h1>
-            <nav>
+            <h2>Our Team</h2>
+            <p>Meet the members of our lab:</p>
+
+            <!-- Principal Investigator -->
+            <div class="team-member">
+                <img src="assets/images/zutao.png" alt="Zutao Yu" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 10px;">
+                <h3>Zutao Yu</h3>
+                <p><strong>Principal Investigator</strong></p>
+                <p>Dr. Zutao Yu is the Principal Investigator of the Yucleic Lab. He specializes in nucleic acids targeting research, focusing on DNA & RNA interactions and drug discovery.</p>
+            </div>
+
+            <!-- Postdoctoral Researchers -->
+            <div class="team-member">
+                <h3>Postdoctoral Researchers</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>Jane Smith</li>
+                    <li>Alex Brown</li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </div>
 
-    <!-- Team Section -->
-    <section id="team" class="section">
-        <div class="container">
-            <h2>Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <img src="images/member1.jpg" alt="Team Member 1">
-                    <h3>Member Name 1</h3>
-                    <p>Role</p>
-                </div>
-                <div class="team-member">
-                    <img src="images/member2.jpg" alt="Team Member 2">
-                    <h3>Member Name 2</h3>
-                    <p>Role</p>
-                </div>
-                <div class="team-member">
-                    <img src="images/member3.jpg" alt="Team Member 3">
-                    <h3>Member Name 3</h3>
-                    <p>Role</p>
-                </div>
+            <!-- Graduate Students -->
+            <div class="team-member">
+                <h3>Graduate Students</h3>
+                <ul>
+                    <li>Emily Davis</li>
+                    <li>Michael Lee</li>
+                </ul>
+            </div>
+
+            <!-- Undergraduate Students -->
+            <div class="team-member">
+                <h3>Undergraduate Students</h3>
+                <ul>
+                    <li>Sarah Johnson</li>
+                    <li>David Wilson</li>
+                </ul>
             </div>
         </div>
-    </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Lab Name. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
+    <!-- The footer will be inserted dynamically here -->
+    <div id="footer"></div>
 </body>
 </html>
