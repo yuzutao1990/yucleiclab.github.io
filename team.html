@@ -26,43 +26,63 @@
 
     <!-- Main Content -->
     <main>
-        <div class="container">
-            <h2>Our Team</h2>
-            <p>Meet the members of our lab:</p>
-
+        <div class="container" style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="text-align: center;">Our Team</h2>
+            
             <!-- Principal Investigator -->
-            <div class="team-member">
-                <img src="assets/images/zutao.png" alt="Zutao Yu" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 10px;">
-                <h3>Zutao Yu</h3>
-                <p><strong>Principal Investigator</strong></p>
-                <p>Dr. Zutao Yu is the Principal Investigator of the Yucleic Lab. He specializes in nucleic acids targeting research, focusing on DNA & RNA interactions and drug discovery.</p>
+            <div class="team-member" style="display: flex; align-items: center; gap: 40px; margin-bottom: 50px;">
+                <div style="flex: 1; text-align: center;">
+                    <img src="assets/images/zutao.png" alt="Zutao Yu" 
+                         style="width: 200px; height: auto; border-radius: 50%; border: 3px solid #007bff;">
+                </div>
+                <div style="flex: 2;">
+                    <h3>Zutao Yu</h3>
+                    <p><strong>Principal Investigator</strong></p>
+                    <p>Dr. Zutao Yu leads the Yucleic Lab, specializing in nucleic acids research with a focus on DNA/RNA interactions and therapeutic development. His work bridges chemical biology and genomic medicine.</p>
+                </div>
             </div>
 
-            <!-- Postdoctoral Researchers -->
-            <div class="team-member">
-                <h3>Postdoctoral Researchers</h3>
-                <ul>
-                    <li>Jane Smith</li>
-                    <li>Alex Brown</li>
-                </ul>
+            <!-- Mindy Yu -->
+            <div class="team-member" style="display: flex; align-items: center; gap: 40px; margin-bottom: 50px;">
+                <div style="flex: 1; text-align: center;">
+                    <img src="assets/images/mindy.jpg" alt="Mindy Yu" 
+                         style="width: 200px; height: auto; border-radius: 50%; border: 3px solid #ff69b4;">
+                </div>
+                <div style="flex: 2;">
+                    <h3>Mindy Yu</h3>
+                    <p><strong>Lab Energizer & Future Scientist</strong></p>
+                    <p>Our youngest team member brings infectious enthusiasm to the lab. Mindy participates in science outreach programs and aims to become a pioneering researcher in genomic medicine.</p>
+                </div>
             </div>
 
-            <!-- Graduate Students -->
-            <div class="team-member">
-                <h3>Graduate Students</h3>
-                <ul>
-                    <li>Emily Davis</li>
-                    <li>Michael Lee</li>
-                </ul>
-            </div>
+            <!-- Other Team Members -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+                <!-- Postdoctoral Researchers -->
+                <div class="team-card" style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3>Postdoctoral Researchers</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>Jane Smith</li>
+                        <li>Alex Brown</li>
+                    </ul>
+                </div>
 
-            <!-- Undergraduate Students -->
-            <div class="team-member">
-                <h3>Undergraduate Students</h3>
-                <ul>
-                    <li>Sarah Johnson</li>
-                    <li>David Wilson</li>
-                </ul>
+                <!-- Graduate Students -->
+                <div class="team-card" style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3>Graduate Students</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>Emily Davis</li>
+                        <li>Michael Lee</li>
+                    </ul>
+                </div>
+
+                <!-- Undergraduate Students -->
+                <div class="team-card" style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3>Undergraduate Students</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>Sarah Johnson</li>
+                        <li>David Wilson</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
