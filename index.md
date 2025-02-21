@@ -1,9 +1,9 @@
 ---
 ---
 
-# Chemical biology lab in GIS---Where Chemical biology and Functional genomics meet
+# Where Chemical biology and Functional genomics meet
 
-The YUcleic Lab is a chemical biology lab dedicated to translational research targeting cellular nucleic acids. We integrate functional genomics, chemical biology, and molecular pharmacology to advance RNA- and DNA-targeted drug discovery. Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective regulation, paving the way for rational drug design. By leveraging cutting-edge gene-targeting strategies, structural biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic target, addressing diseases linked to genomic dysregulation and undruggable pathways.
+The YUcleic Lab is a chemical biology lab dedicated to translational research targeting cellular nucleic acids. We integrate functional genomics, chemical biology, and molecular pharmacology to advance RNA- and DNA-targeted drug discovery. Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective regulation, paving the way for rational drug design. By leveraging cutting-edge gene-targeting strategies, structural biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic targets, addressing diseases linked to genomic dysregulation and undruggable pathways.
 
 {% include section.html %}
 
