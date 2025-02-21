@@ -5,6 +5,6 @@
 
   # yuzutao1990's Website
 
-  Visit **[yucleiclab.com](http://yucleiclab.com)** 🚀
+  Visit **[yuzutao1990.github.io/yucleicLab.github.io](https://yuzutao1990.github.io/yucleicLab.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
