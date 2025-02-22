@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Functional genomics has transformed our understanding of gene regulation, disease mechanisms, and therapeutic potential. Despite advancements, precise manipulation of functional genomics using clinically accessible tools remains challenging. This research proposes to develop next-generation small molecules (SMs) as DNA and RNA modulators, innovating approaches for sequence-specific genome and transcriptome editing. By integrating advanced chemogenomic tools, this study aims to decode nucleic acid-drug interactions and design synthetic therapeutic strategies targeting cancer and neurodegenerative diseases. 
 
 {% include section.html %}
 
