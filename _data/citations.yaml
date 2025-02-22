@@ -1,174 +1,445 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1073/pnas.2320240121
+  title: "G-quadruplex DNA structure is a positive regulator of\n            <i>MYC</i>\n\
+    \            transcription"
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Isabel Esain-Garcia
+  - Angie Kirchner
+  - Larry Melidis
+  - Rafael de Cesaris Araujo Tavares
+  - Somdutta Dhir
+  - Angela Simeone
+  - Zutao Yu
+  - Sarah K. Madden
+  - Regina Hermann
+  - David Tannahill
+  - Shankar Balasubramanian
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2024-02-05'
+  link: https://doi.org/g85v2x
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1016/j.ijbiomac.2023.125443
+  title: 'Unveiling the role of G-quadruplex structure in promoter region: Regulation
+    of ABCA1 expression in macrophages possibly via NONO protein recruitment'
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Chao-Da Xiao
+  - Meng-Hao Jia
+  - Ming-Qing Zhong
+  - Yan Xu
+  - Zu-Tao Yu
+  - Zhi-Yong He
+  - Xu Lu
+  - Yan Zhang
+  - Xue Zhou
+  - Lin-Yun Fu
+  - Xiang-Chun Shen
+  publisher: International Journal of Biological Macromolecules
+  date: '2023-08-01'
+  link: https://doi.org/g85v2z
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41587-022-01636-0
+  title: Chem-map profiles drug binding to chromatin in cells
+  authors:
+  - Zutao Yu
+  - Jochen Spiegel
+  - Larry Melidis
+  - Winnie W. I. Hui
+  - Xiaoyun Zhang
+  - "Antanas Radzevi\u010Dius"
+  - Shankar Balasubramanian
+  publisher: Nature Biotechnology
+  date: '2023-01-23'
+  link: https://doi.org/g85v22
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.tig.2022.10.006
+  title: 'Mitochondria and G-quadruplex evolution: an intertwined relationship'
+  authors:
+  - Vinodh J. Sahayasheela
+  - Zutao Yu
+  - Takuya Hidaka
+  - Ganesh N. Pandian
+  - Hiroshi Sugiyama
+  publisher: Trends in Genetics
+  date: '2023-01-01'
+  link: https://doi.org/g85v23
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acschembio.2c00221
+  title: Chemical Probe-Based Nanopore Sequencing to Selectively Assess the RNA Modifications
+  authors:
+  - Soundhar Ramasamy
+  - Vinodh J. Sahayasheela
+  - Surbhi Sharma
+  - Zutao Yu
+  - Takuya Hidaka
+  - Li Cai
+  - Vaijayanthi Thangavel
+  - Hiroshi Sugiyama
+  - Ganesh N. Pandian
+  publisher: ACS Chemical Biology
+  date: '2022-10-03'
+  link: https://doi.org/gsfsnq
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1246/bcsj.20210453
+  title: Inhibition of GLI-Mediated Transcription by Cyclic Pyrrole-Imidazole Polyamide
+    in Cancer Stem Cells
+  authors:
+  - Vinodh J Sahayasheela
+  - Zutao Yu
+  - Yuki Hirose
+  - Ganesh N Pandian
+  - Toshikazu Bando
+  - Hiroshi Sugiyama
+  publisher: Bulletin of the Chemical Society of Japan
+  date: '2022-03-08'
+  link: https://doi.org/g85v24
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jcpt.13181
+  title: "Effective treatment of vancomycin nephrotoxicity with continuous venous\u2010\
+    venous haemodiafiltration (CVVHDF) in a paediatric patient"
+  authors:
+  - Meng Lv
+  - Shuli Ma
+  - Nan Chen
+  - Yan Liu
+  - Zutao Yu
+  publisher: Journal of Clinical Pharmacy and Therapeutics
+  date: '2020-05-18'
+  link: https://doi.org/g85v25
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.05.19.105338
+  title: Chemical probe-based Nanopore Sequencing to Selectively Assess the RNA modifications
+  authors:
+  - Soundhar Ramasamy
+  - Vinodh J Sahayasheela
+  - Zutao Yu
+  - Takuya Hidaka
+  - Li Cai
+  - Hiroshi Sugiyama
+  - Ganesh N. Pandian
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2020-05-20'
+  link: https://doi.org/gsxnpb
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.7717/PEERJ.9981
+  title: A novel dual MEK/PDK1 inhibitor 9za retards the cell cycle at G<sub>0</sub>/G<sub>1</sub>
+    phase and induces mitochondrial apoptosis in non-small cell lung cancer cells
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Rangru Liu
+  - Zutao Yu
+  - Zhuo Chen
+  - Danqi Liu
+  - Fengying Huang
+  - Qianbin Li
+  - Gaoyun Hu
+  - Xinan Yi
+  - Xi Li
+  - Honghao Zhou
+  - Zhaoqian Liu
+  publisher: PeerJ
+  date: '2020-10-02'
+  link: https://doi.org/g85v26
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1039/c9cc09608f
+  title: A synthetic transcription factor pair mimic for precise recruitment of an
+    epigenetic modifier to the targeted DNA locus
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Zutao Yu
+  - Mengting Ai
+  - Soumen K. Samanta
+  - Fumitaka Hashiya
+  - Junichi Taniguchi
+  - Sefan Asamitsu
+  - Shuji Ikeda
+  - Kaori Hashiya
+  - Toshikazu Bando
+  - Ganesh N. Pandian
+  - Lyle Isaacs
+  - Hiroshi Sugiyama
+  publisher: Chemical Communications
+  date: '2020-01-01'
+  link: https://doi.org/g6h445
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1007/978-981-15-4423-1
+  title: Artificial Assemblies with Cooperative DNA Recognition
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Zutao YU
+  publisher: Springer Theses
+  date: '2020-01-01'
+  link: https://doi.org/g85v27
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.2174/1389557519666190730110600
+  title: 'Soluble Guanylate Cyclase Stimulators and Activators: Where are We and Where
+    to Go?'
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Sijia Xiao
+  - Qianbin Li
+  - Liqing Hu
+  - Zutao Yu
+  - Jie Yang
+  - Qi Chang
+  - Zhuo Chen
+  - Gaoyun Hu
+  publisher: Mini-Reviews in Medicinal Chemistry
+  date: '2019-11-29'
+  link: https://doi.org/g85v28
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1016/j.bmc.2019.03.037
+  title: Binding pocket-based design, synthesis and biological evaluation of novel
+    selective BRD4-BD1 inhibitors
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Junlong Ma
+  - Heng Chen
+  - Jie Yang
+  - Zutao Yu
+  - Pan Huang
+  - Haofeng Yang
+  - Bifeng Zheng
+  - Rangru Liu
+  - Qianbin Li
+  - Gaoyun Hu
+  - Zhuo Chen
+  publisher: Bioorganic &amp; Medicinal Chemistry
+  date: '2019-05-01'
+  link: https://doi.org/gmjh6s
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.addr.2019.02.001
+  title: "Therapeutic gene regulation using pyrrole\u2013imidazole polyamides"
+  authors:
+  - Zutao Yu
+  - Ganesh N. Pandian
+  - Takuya Hidaka
+  - Hiroshi Sugiyama
+  publisher: Advanced Drug Delivery Reviews
+  date: '2019-07-01'
+  link: https://doi.org/g85v29
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/chem.201805394
+  title: "Direct Observation of the Double\u2010Stranded DNA Formation through Metal\
+    \ Ion\u2010Mediated Base Pairing in the Nanoscale Structure"
+  authors:
+  - Xiwen Xing
+  - Yihong Feng
+  - Zutao Yu
+  - Kumi Hidaka
+  - Fenyong Liu
+  - Akira Ono
+  - Hiroshi Sugiyama
+  - Masayuki Endo
+  publisher: "Chemistry \u2013 A European Journal"
+  date: '2018-12-20'
+  link: https://doi.org/g85v3b
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/molecules24030429
+  title: Recent Progress of Targeted G-Quadruplex-Preferred Ligands Toward Cancer
+    Therapy
+  authors:
+  - Sefan Asamitsu
+  - Shunsuke Obata
+  - Zutao Yu
+  - Toshikazu Bando
+  - Hiroshi Sugiyama
+  publisher: Molecules
+  date: '2019-01-24'
+  link: https://doi.org/ghh6z9
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bmc.2019.01.028
+  title: 'Dual inhibitors of RAF-MEK-ERK and PI3K-PDK1-AKT pathways: Design, synthesis
+    and preliminary anticancer activity studies of 3-substituted-5-(phenylamino) indolone
+    derivatives'
+  authors:
+  - Zutao Yu
+  - Zhuo Chen
+  - Qiongli Su
+  - Shiqi Ye
+  - Hongbo Yuan
+  - Mengni Kuai
+  - Meng Lv
+  - Zhijun Tu
+  - Xiaoping Yang
+  - RangRu Liu
+  - Gaoyun Hu
+  - Qianbin Li
+  publisher: Bioorganic &amp; Medicinal Chemistry
+  date: '2019-03-01'
+  link: https://doi.org/g85v3c
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4155/FMC-2019-0111
+  title: 'Current Advances in Idiopathic Pulmonary Fibrosis: The pathogenesis, Therapeutic
+    Strategies and Candidate Molecules'
+  authors:
+  - Meng Lv
+  - Yan Liu
+  - Shuli Ma
+  - Zutao Yu
+  publisher: Future Medicinal Chemistry
+  date: '2019-10-01'
+  link: https://doi.org/gph2rs
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/chem.201804010
+  title: "Direct Observation of H3\u2013H4 Octasome by High\u2010Speed AFM"
+  authors:
+  - Tingting Zou
+  - Fumitaka Hashiya
+  - Yulei Wei
+  - Zutao Yu
+  - Ganesh N. Pandian
+  - Hiroshi Sugiyama
+  publisher: "Chemistry \u2013 A European Journal"
+  date: '2018-10-04'
+  link: https://doi.org/gfrwhb
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/chem.201801961
+  title: "Orthogonal \u03B3PNA Dimerization Domains Empower DNA Binders with Cooperativity\
+    \ and Versatility Mimicking that of Transcription Factor Pairs"
+  authors:
+  - Zutao Yu
+  - "Wei\u2010Che Hsieh"
+  - Sefan Asamitsu
+  - Kaori Hashiya
+  - Toshikazu Bando
+  - Danith H. Ly
+  - Hiroshi Sugiyama
+  publisher: "Chemistry \u2013 A European Journal"
+  date: '2018-08-27'
+  link: https://doi.org/gfcdmr
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsomega.8b00220
+  title: Synthetic DNA-Binding Inhibitor of HES1 Alters the Notch Signaling Pathway
+    and Induces Neuronal Differentiation
+  authors:
+  - Yulei Wei
+  - Ganesh N. Pandian
+  - Zutao Yu
+  - Tingting Zou
+  - Yue Li
+  - Jayant Darokar
+  - Kaori Hashiya
+  - Toshikazu Bando
+  - Hiroshi Sugiyama
+  publisher: ACS Omega
+  date: '2018-03-30'
+  link: https://doi.org/g85v3d
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jacs.7b13275
+  title: 'Pip-HoGu: An Artificial Assembly with Cooperative DNA Recognition Capable
+    of Mimicking Transcription Factor Pairs'
+  authors:
+  - Zutao Yu
+  - Chuanxin Guo
+  - Yulei Wei
+  - Kaori Hashiya
+  - Toshikazu Bando
+  - Hiroshi Sugiyama
+  publisher: Journal of the American Chemical Society
+  date: '2018-02-08'
+  link: https://doi.org/gczhvj
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bmc.2017.11.011
+  title: UVA irradiation of BrU-substituted DNA in the presence of Hoechst 33258
+  authors:
+  - Abhijit Saha
+  - Seiichiro Kizaki
+  - Ji Hoon Han
+  - Zutao Yu
+  - Hiroshi Sugiyama
+  publisher: Bioorganic &amp; Medicinal Chemistry
+  date: '2018-01-01'
+  link: https://doi.org/gcst9g
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ejmech.2017.06.037
+  title: Antiproliferative and apoptotic activities of sequence-specific histone acetyltransferase
+    inhibitors
+  authors:
+  - Zutao Yu
+  - Junichi Taniguchi
+  - Yulei Wei
+  - Ganesh N. Pandian
+  - Kaori Hashiya
+  - Toshikazu Bando
+  - Hiroshi Sugiyama
+  publisher: European Journal of Medicinal Chemistry
+  date: '2017-09-01'
+  link: https://doi.org/gbzxxz
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.6023/cjoc201512007
+  title: "\u201COne-Pot\u201D Synthesis of 1-Phenyl-1<i>H</i>-benzimidazole Derivatives\
+    \ Facilitated by Fe"
+  authors:
+  - Zutao Yu
+  - Zeyu Wang
+  - Xiao Wu
+  - Gaoyun Hu
+  - Qianbin Li
+  publisher: Chinese Journal of Organic Chemistry
+  date: '2016-01-01'
+  link: https://doi.org/g85v3f
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4155/fmc.14.143
+  title: 'The RAF-MEK-ERK Pathway: Targeting ERK to Overcome Obstacles of Effective
+    Cancer Therapy'
+  authors:
+  - Zutao Yu
+  - Shiqi Ye
+  - Gaoyun Hu
+  - Meng Lv
+  - Zhijun Tu
+  - Kun Zhou
+  - Qianbin Li
+  publisher: Future Medicinal Chemistry
+  date: '2015-03-01'
+  link: https://doi.org/f7df53
+  orcid: 0000-0003-1389-0818
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +455,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +471,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
