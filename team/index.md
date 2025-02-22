@@ -2,34 +2,37 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet the Team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Meet Our Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We’re a new research group, based at the Genome Institute of Singapore (GIS), A*STAR. We're always keen to hear from talented and curious scientists, visiting students, and visiting scholars interested in joining the lab!
 
-{% include section.html %}
+## Principal Investigator
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+### Dr. Zutao Yu
 
-{% include section.html background="images/background.jpg" dark=true %}
+![Zutao's Photo](/images/zutao.jpg){: .align-left }
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**2023.12 - Present** | Senior Research Associate, University of Cambridge  
+**2020.09 - 2023.11** | Research Associate, University of Cambridge  
+**2018.10 - 2020.08** | Research Associate, Kyoto University  
+**2015.10 - 2018.09** | Ph.D. in Chemical Biology, Kyoto University  
+**2012.09 - 2015.06** | M. Med. in Medicinal Chemistry, Central South University
 
-{% include section.html %}
+Dr. Zutao Yu leads the YUcleic Lab, specializing in nucleic acids chemical biology with a focus on DNA/RNA interactions and therapeutic development. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in-situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies for modulating functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
-{% capture content %}
+---
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+## Postdoctoral Candidate
 
-{% endcapture %}
+We are looking for a highly motivated Postdoc to join our team. If you have a passion for RNA- and DNA-targeted therapeutic discovery, feel free to reach out.
 
-{% include grid.html style="square" content=content %}
+## Research Officer
+
+We are currently looking for a Research Officer to join the team and contribute to developing novel strategies targeting RNA and DNA. Get in touch if you're interested!
+
+## Potential Students
+
+We welcome students with an interest in **chemical biology, nucleic acids,** and **genomic medicine**. If you are passionate about pursuing cutting-edge research in these areas, please consider joining us!
