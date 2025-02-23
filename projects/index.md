@@ -1,27 +1,28 @@
 ---
-title: Projects
-nav:
-  order: 2
-  tooltip: Software, datasets, and more
+title: "Research Projects"
+layout: single
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+## RNA Targeting Therapeutic Design
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="path_to_rna_image.jpg" alt="RNA Targeting" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>CRISPR-based gene modulation (Cas9 for DNA, Cas13 for RNA) has revolutionized functional genomics, but clinical applications remain limited by delivery challenges. Small molecules (SMs) and oligonucleotides (ODNs) offer alternative strategies for gene activation or repression, yet their precise mechanisms are underexplored. RNA, comprising over 90% of the human genome, presents vast druggable potential through sequence and structure targeting. This project aims to develop novel bifunctional RNA binders and RNA editing approaches for therapeutic applications.</p>
+  </div>
+</div>
 
-{% include tags.html tags="publication, resource, website" %}
+---
 
-{% include search-info.html %}
+## DNA Sequence-Specific Binder Design
 
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="path_to_dna_image.jpg" alt="DNA Binding" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>Targeting DNA at the genomic level holds promise for gene regulation and disease treatment. Pyrrole-Imidazole Polyamides (PIPs) are leading candidates for sequence-selective DNA binding, but achieving high specificity at the whole-genome scale remains challenging. This project integrates chemical biology, computational chemistry, and AI-driven approaches to design new DNA-binding oligomers, optimizing monomer interactions and flexible linker strategies to achieve precise gene targeting.</p>
+  </div>
+</div>
