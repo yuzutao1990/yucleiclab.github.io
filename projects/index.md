@@ -1,6 +1,8 @@
 ---
-title: "Research Projects"
-layout: single
+title: Projects
+nav:
+  order: 2
+  tooltip: Research projects
 ---
 
 ## RNA Targeting Therapeutic Design
