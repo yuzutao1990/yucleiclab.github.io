@@ -1,1 +1,1 @@
-Sitemap: https://yuzutao1990.github.io/yucleicLab.github.io/sitemap.xml
+Sitemap: http://yucleiclab.com/sitemap.xml
