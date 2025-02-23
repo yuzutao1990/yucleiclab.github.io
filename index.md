@@ -50,7 +50,7 @@ We are looking for a highly motivated Scientist (Postdoctoral Fellow) and a Rese
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="contact"
   title="Join us"
   flip=true
   style="bare"
