@@ -34,7 +34,7 @@ Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs)
 
 {% capture text %}
 
-We are looking for a highly motivated Scientist (Postdoctoral Fellow) and a Research Officer to join our team and contribute to innovative RNA- and DNA-targeted therapeutic discovery.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
@@ -52,5 +52,7 @@ We are looking for a highly motivated Scientist (Postdoctoral Fellow) and a Rese
   image="images/photo.jpg"
   link="projects"
   title="Join us"
+  flip=true
+  style="bare"
   text=text
 %}
