@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-last-modified-at"
   gem "faraday-retry"
+  gem "nokogiri", "~> 1.13.10"
 end
