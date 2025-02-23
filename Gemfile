@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "faraday-retry"
   gem "nokogiri", "~> 1.13.10"
+  gem "sass-embedded", "~> 1.58.3"
 end
