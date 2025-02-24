@@ -38,7 +38,7 @@ We are always looking for motivated researchers to join our team and drive RNA- 
 
 {%
   include button.html
-  link="projects"
+  link="contact"
   text="We are recruiting"
   icon="fa-solid fa-arrow-right"
   flip=true
