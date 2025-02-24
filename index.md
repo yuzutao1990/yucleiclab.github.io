@@ -49,7 +49,7 @@ We are always looking for motivated researchers to join our team and drive RNA- 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/image join us.png"
   link="contact"
   title="Join us"
   flip=true
