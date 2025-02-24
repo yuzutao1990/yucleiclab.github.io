@@ -33,6 +33,6 @@ We are looking for a highly motivated Postdoc to join our team. If you have a pa
 
 We are currently looking for a Research Officer to join the team and contribute to developing novel strategies targeting RNA and DNA. Get in touch if you're interested!
 
-## Potential Students
+## Visiting Scholars & Students
 
-We welcome students with an interest in **chemical biology, nucleic acids,** and **genomic medicine**. If you are passionate about pursuing cutting-edge research in these areas, please consider joining us!
+We welcome visiting scholars and students interested in chemical biology, nucleic acids, and genomic medicine. If you're passionate about cutting-edge research in these areas, we encourage you to join us!
