@@ -34,7 +34,7 @@ Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs)
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are always looking for motivated researchers to join our team and drive RNA- and DNA-targeted therapeutic discovery. Currently, we have two open positions: Scientist (Postdoctoral Fellow) and Research Officer—both available immediately.
 
 {%
   include button.html
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="contact"
   title="Join us"
   flip=true
   style="bare"
