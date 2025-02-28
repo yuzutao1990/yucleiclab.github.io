@@ -26,7 +26,7 @@ Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs)
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research1.png"
   link="research"
   title="Our Research"
   text=text
