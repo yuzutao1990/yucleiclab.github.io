@@ -7,11 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
-We are looking for a highly motivated **Scientist (Postdoctoral Fellow)** and a **Research Officer** to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**.
+We are looking for a highly motivated **Scientist (Postdoctoral Fellow)** and a **Research Officer** to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **zy323@cam.ac.uk** with the email title “Scientist/Research Officer Application_ASTAR”.
 
 ---
 
-## 🧪 Scientist / Senior Scientist (2-year contract, renewable)
+## 🧪 Scientist / Senior Scientist (fully funded, instantly available)
 
 **Responsibilities:**
 - Design and execute **functional genomics experiments**, including CRISPR-, small molecule-, and ASO-based gene regulation strategies.
@@ -29,7 +29,7 @@ We are looking for a highly motivated **Scientist (Postdoctoral Fellow)** and a 
 
 ---
 
-## 🧬 Research Officer (2-year contract, renewable)
+## 🧬 Research Officer (fully funded, instantly available)
 
 **Responsibilities:**
 - Develop and optimize **cellular assays** to evaluate the efficacy of RNA-targeting strategies in cells.
@@ -44,16 +44,6 @@ We are looking for a highly motivated **Scientist (Postdoctoral Fellow)** and a 
 - 🔬 Experience in **molecular biology, cell culture, RNA biology, CRISPR**, or sequencing technologies.
 - 🧠 Strong organizational skills and a **positive, eager-to-learn attitude**.
 - 🤝 Ability to work both independently and collaboratively in a fast-paced research environment.
-
----
-
-## 📧 Application Details
-
-For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **zy323@cam.ac.uk** with the email title “Scientist/Research Officer Application_ASTAR”.
-
-More information about the lab can be found online:  
-[www.yucleiclab.com](http://www.yucleiclab.com)  
-[Google Scholar Profile](https://scholar.google.com/citations?user=U0uXqjUAAAAJ&hl=zh-CN)
 
 ---
 
