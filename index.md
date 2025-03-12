@@ -11,7 +11,7 @@ The YUcleic Lab is a chemical biology lab dedicated to translational research ta
 
 {% capture text %}
 
-Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective regulation, paving the way for rational drug design. By leveraging cutting-edge gene-targeting strategies, structural biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic targets, addressing diseases linked to genomic dysregulation and undruggable pathways.
+Our research is centred on RNA: how it is produced, processed, modulated, and translated. By leveraging cutting-edge gene-targeting strategies, structural biology, sequencing technologies, and computational approaches, we aim to unlock RNA and DNA as precise therapeutic targets, addressing diseases linked to genomic dysregulation and undruggable pathways. Our approach is to re-engineer small molecules and antisense oligonucleotides (ASOs) for gene-selective regulation, paving the way for rational drug design.
 
 {%
   include button.html
@@ -34,7 +34,8 @@ Our goal is to re-engineer small molecules and antisense oligonucleotides (ASOs)
 
 {% capture text %}
 
-We are always looking for motivated researchers to join our team and drive RNA- and DNA-targeted therapeutic discovery. Currently, we have two open positions: Scientist (Postdoctoral Fellow) and Research Officer—both available immediately.
+We are always looking for motivated researchers to join our team and drive RNA- and DNA-targeted therapeutic discovery.
+Currently, we have two fully funded, open positions: Scientist (Postdoctoral Fellow) and Research Officer, both available immediately.
 
 {%
   include button.html
