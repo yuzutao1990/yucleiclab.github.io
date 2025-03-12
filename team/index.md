@@ -21,7 +21,7 @@ We’re a new research group, based at the Genome Institute of Singapore (GIS), 
 **2015.10 - 2018.09** | Ph.D. in Chemical Biology, Kyoto University  
 **2012.09 - 2015.06** | M. Med. in Medicinal Chemistry, Central South University
 
-Dr. Zutao Yu leads the YUcleic Lab, specializing in nucleic acids chemical biology with a focus on DNA/RNA interactions and therapeutic development. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in-situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies for modulating functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
+Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in-situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies for modulating functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
 ---
 
