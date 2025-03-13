@@ -9,6 +9,7 @@ nav:
 
 We are looking for a highly motivated **Scientist (Postdoctoral Fellow)** and a **Research Officer** to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **zy323@cam.ac.uk** with the email title “Scientist/Research Officer Application_ASTAR”.
 
+We welcome visiting scholars and students interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us!
 ---
 
 ## 🧪 Scientist / Senior Scientist (fully funded, instantly available)
