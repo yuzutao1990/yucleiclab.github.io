@@ -4,7 +4,7 @@ nav:
   order: 5
   tooltip: Open Positions in the Lab
 ---
-
+ 
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
 We always seek highly motivated students and young scientists to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **yuzt@gis.a-star.edu.sg** with the email title “Internship/Scientist/Research Officer Application_ASTAR”.
