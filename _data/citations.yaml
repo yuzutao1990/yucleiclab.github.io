@@ -1,5 +1,43 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1080/19491034.2025.2557113
+  title: H2A.Z-nucleosomes are stabilized by the superhelicity-dependent DNA binding
+    of the C-terminal tail of the histone variant
+  authors:
+  - Ibtissem Benhamza
+  - Laszlo Imre
+  - Zutao Yu
+  - Peter Nanasi
+  - Pialy Sen
+  - Kata Nora Enyedi
+  - Katalin Goda
+  - "Gy\xF6rgy Vamosi"
+  - Gabor Szabo
+  publisher: Nucleus
+  date: '2025-09-09'
+  link: https://doi.org/g93n79
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41557-025-01792-1
+  title: Optical control of gene expression using a DNA G-quadruplex targeting reversible
+    photoswitch
+  authors:
+  - Xiaoyun Zhang
+  - Somdutta Dhir
+  - Larry Melidis
+  - Yuqi Chen
+  - Zutao Yu
+  - Angela Simeone
+  - Jochen Spiegel
+  - Santosh Adhikari
+  - Shankar Balasubramanian
+  publisher: Nature Chemistry
+  date: '2025-04-03'
+  link: https://doi.org/g9z32g
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.2320240121
   title: "G-quadruplex DNA structure is a positive regulator of\n            <i>MYC</i>\n\
     \            transcription"
@@ -59,6 +97,18 @@
   plugin: sources.py
   file: sources.yaml
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1002/9781119692799.ch5
+  title: "SEQUENCE\u2010SPECIFIC CHROMOSOMAL DNA BINDERS"
+  authors:
+  - Zutao Yu
+  - Ganesh N. Pandian
+  - Hiroshi Sugiyama
+  publisher: Nucleic Acids in Medicinal Chemistry and Chemical Biology
+  date: '2022-12-16'
+  link: https://doi.org/g9z32h
+  orcid: 0000-0003-1389-0818
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.tig.2022.10.006
   title: 'Mitochondria and G-quadruplex evolution: an intertwined relationship'
   authors:
@@ -132,7 +182,7 @@
   - Li Cai
   - Hiroshi Sugiyama
   - Ganesh N. Pandian
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-05-20'
   link: https://doi.org/gsxnpb
   orcid: 0000-0003-1389-0818
