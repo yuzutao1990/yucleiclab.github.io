@@ -1,21 +1,36 @@
 title: Yucleic Lab
 description: Nucleic acids chemical biology at GIS, Singapore
 url: https://www.yucleiclab.com
+baseurl: ""
+
+# REMOVE theme and remote_theme entirely - this template is self-contained
 theme: null
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
 
-# Minimal Mistakes basics
-minimal_mistakes_skin: default
+# tell Jekyll to include underscore folders so CSS/JS actually gets built
+include:
+  - _styles
+  - _scripts
+
+# tell Jekyll not to process these folders as pages
+exclude:
+  - _cite
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 locale: en
 markdown: kramdown
 kramdown:
   input: GFM
+
 author:
   name: Yucleic Lab
+
 nav:
   - title: Home
     url: /
