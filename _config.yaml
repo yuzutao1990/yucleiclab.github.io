@@ -24,6 +24,12 @@ exclude:
   - Gemfile.lock
   - README.md
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 locale: en
 markdown: kramdown
 kramdown:
