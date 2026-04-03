@@ -2,7 +2,7 @@ title: Yucleic Lab
 description: Nucleic acids chemical biology at GIS, Singapore
 url: https://www.yucleiclab.com
 theme: null
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 plugins:
   - jekyll-include-cache
   - jekyll-feed
