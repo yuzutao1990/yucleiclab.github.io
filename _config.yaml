@@ -19,6 +19,7 @@ include:
 # tell Jekyll not to process these folders as pages
 exclude:
   - _cite
+  - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
