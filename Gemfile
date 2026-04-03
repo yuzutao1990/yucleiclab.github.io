@@ -1,4 +1,11 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-# For local testing only (Ruby 3+):
-gem "webrick", "~> 1.8"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-feed"
+gem "jekyll-last-modified-at"
+gem "jekyll-redirect-from"
+gem "jekyll-sitemap"
+gem "jekyll-spaceship"
+gem "jekyll-include-cache"
+gem "sass-embedded", "~> 1.89"
+gem "webrick", "~> 1.7"
