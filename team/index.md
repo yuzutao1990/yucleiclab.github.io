@@ -45,14 +45,8 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 
 ## Lab members
 
+{% include list.html data="members" component="portrait" filters="role: scientist" %}
 
-Ruofan Peng
-Scientist
-PhD: Tokyo University
-
-Ze Zhang
-Scientist
-PhD: Nanjing University
 ---
 ## International PhD students
 We highly recommend that potential international PhD students apply ASTAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
