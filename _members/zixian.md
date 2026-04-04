@@ -1,11 +1,11 @@
 ---
-name: Zixian Wang
+name: Zixian Wen
 image: images/zixian.jpg
 role: ro
 title: Research officer
 affiliation: Genome Institute of Singapore
 description: >
-  Master Molecular Biology, National Technology Univeristy
-  links: https://www.a-star.edu.sg/gis/our-people/faculty-staff
-  email: pengrf@a-star.edu.sg
+  Master Molecular Biology, National Technology University
+links: 
+  email: wen_zixian@a-star.edu.sg
 ---
