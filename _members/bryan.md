@@ -1,6 +1,6 @@
 ---
 name: Bryan Ng Yik Loong
-image: images/Bryan.jpg
+image: images/bryan.jpg
 role: scientist
 title: Scientist
 description: >
