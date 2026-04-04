@@ -32,8 +32,8 @@ We’re a new research group, based at the Genome Institute of Singapore (GIS), 
     <img src="/images/zutao.jpg" alt="Zutao's Photo" class="team-photo">
     <div class="team-info">
         <h3>Dr. Zutao Yu</h3>
-              <p><strong>2023.12 - Present</strong> |   Senior Research Associate, University of Cambridge</p>
-              <p><strong>2020.09 - 2023.11</strong> |   Research Associate, University of Cambridge</p>
+              <p><strong>2025.05 - Present</strong> |   Principal Investigator, Genome Institute of Singapore</p>
+              <p><strong>2020.09 - 2025.04</strong> |   (Senior) Research Associate, University of Cambridge</p>
               <p><strong>2018.10 - 2020.08</strong> |   Research Associate, Kyoto University</p>
               <p><strong>2015.10 - 2018.09</strong> |   Ph.D. in Chemical Biology, Kyoto University</p>
               <p><strong>2012.09 - 2015.06</strong> |   M. Med. in Medicinal Chemistry, Central South University</p>
@@ -41,12 +41,18 @@ We’re a new research group, based at the Genome Institute of Singapore (GIS), 
 </div>
 
 
-Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in-situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies for modulating functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
+Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies to modulate functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
 ## Lab members
 
 
+Ruofan Peng
+Scientist
+PhD: Tokyo University
 
+Ze Zhang
+Scientist
+PhD: Nanjing University
 ---
 ## International PhD students
 We highly recommend that potential international PhD students apply ASTAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
