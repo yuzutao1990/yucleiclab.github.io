@@ -38,7 +38,7 @@ kramdown:
 author:
   name: Yucleic Lab
 
-collections
+collections:
   members:
     output: true
   pages:
