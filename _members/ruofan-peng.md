@@ -1,5 +1,5 @@
 ---
-name: Ruofan Pneg
+name: Ruofan Peng
 image: images/ruofan.jpg
 role: scientist
 title: Scientist
