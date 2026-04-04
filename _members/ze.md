@@ -5,7 +5,7 @@ role: scientist
 title: Scientist
 affiliation: Genome Institute of Singapore
 description: >
-  Ph.D. Chemical biology, Nan University
-  links: https://www.a-star.edu.sg/gis/our-people/faculty-staff
-  email: pengrf@a-star.edu.sg
+  Ph.D. Chemical biology, Nanjing University
+links: 
+  email: zhang_ze@a-star.edu.sg
 ---
