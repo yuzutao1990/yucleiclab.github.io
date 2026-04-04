@@ -38,18 +38,6 @@ kramdown:
 author:
   name: Yucleic Lab
 
-nav:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research/
-  - title: Members
-    url: /members/
-  - title: Publications
-    url: /publications/
-  - title: Join Us
-    url: /join/
-
 collections:
   pages:
     output: true
