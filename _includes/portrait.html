@@ -6,11 +6,9 @@
 {% else %}
   {% assign member = include %}
 {% endif %}
-
 {% assign type = site.data.types[member.role] %}
-
 <div class="portrait-wrapper">
-  <a
+  
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
@@ -21,7 +19,6 @@
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
-
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
@@ -29,22 +26,31 @@
       loading="lazy"
       {% include fallback.html %}
     >
-
     {% if member.name %}
       <span class="portrait-name">
         {{ member.name }}
       </span>
     {% endif %}
-
-    {% if member.description or type %}
+    {% if member.title %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ member.title }}
       </span>
     {% endif %}
-
-    {% if member.affiliation %}
-      <span class="portrait-affiliation">
-        {{ member.affiliation }}
+    {% if member.links.email %}
+      <span class="portrait-description">
+        <a href="mailto:{{ member.links.email }}">{{ member.links.email }}</a>
+      </span>
+    {% endif %}
+    {% if member.education %}
+      <span class="portrait-description">
+        {% for edu in member.education %}
+          {{ edu }}<br>
+        {% endfor %}
+      </span>
+    {% endif %}
+    {% if member.description %}
+      <span class="portrait-description">
+        {{ member.description }}
       </span>
     {% endif %}
   </a>
