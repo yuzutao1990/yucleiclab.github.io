@@ -32,11 +32,11 @@ We’re a new research group, based at the Genome Institute of Singapore (GIS), 
     <img src="/images/zutao.jpg" alt="Zutao's Photo" class="team-photo">
     <div class="team-info">
         <h3>Dr. Zutao Yu</h3>
-              <p><strong>2025.05 - Present</strong> |   Principal Investigator, Genome Institute of Singapore</p>
-              <p><strong>2020.09 - 2025.04</strong> |   (Senior) Research Associate, University of Cambridge</p>
-              <p><strong>2018.10 - 2020.08</strong> |   Research Associate, Kyoto University</p>
-              <p><strong>2015.10 - 2018.09</strong> |   Ph.D. in Chemical Biology, Kyoto University</p>
-              <p><strong>2012.09 - 2015.06</strong> |   M. Med. in Medicinal Chemistry, Central South University</p>
+              <p>2025.05 - Present |   Principal Investigator, Genome Institute of Singapore</p>
+              <p>2020.09 - 2025.04 |   (Senior) Research Associate, University of Cambridge</p>
+              <p>2018.10 - 2020.08 |   Research Associate, Kyoto University</p>
+              <p>2015.10 - 2018.09 |   Ph.D. in Chemical Biology, Kyoto University</p>
+              <p>2012.09 - 2015.06 |   M. Med. in Medicinal Chemistry, Central South University</p>
     </div>
 </div>
 
@@ -46,5 +46,11 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 ## Lab members
 
 {% include list.html data="members" component="portrait" %}
+
+## Lab Intranet
+
+Internal resources including protocols, meeting notes, and lab documents are available to lab members only.
+
+{% include button.html text="Access Lab Drive" link="[https://drive.google.com/drive/folders/YOUR_FOLDER_ID](https://drive.google.com/drive/folders/1_pdI3qvJMiozR4_rBEYLgqmKZJK3PZPM?usp=drive_link)" icon="fa-brands fa-google-drive" %}
 
 ---
