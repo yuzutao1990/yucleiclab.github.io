@@ -45,7 +45,10 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 
 ## Lab members
 
-{% include list.html data="members" component="portrait" filters="role: scientist" %}
+{% include portrait.html member="zixian-wen" %}
+{% include portrait.html member="ruofan-peng" %}
+{% include portrait.html member="ze-zhang" %}
+{% include portrait.html member="bryan-ng-yik-loong" %}
 
 ---
 ## International PhD students
