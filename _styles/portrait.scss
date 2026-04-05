@@ -71,6 +71,12 @@
   font-weight: var(--semi-bold);
 }
 
+.portrait-role {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .portrait[data-style="tiny"] {
   .portrait-description,
   .portrait-affiliation {
