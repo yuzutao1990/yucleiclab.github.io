@@ -44,12 +44,7 @@ We’re a new research group, based at the Genome Institute of Singapore (GIS), 
 Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies to modulate functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
 ## Lab members
-
-{% include portrait.html member="zixian-wen" %}
-{% include portrait.html member="ruofan-peng" %}
-{% include portrait.html member="ze-zhang" %}
-{% include portrait.html member="bryan-ng-yik-loong" %}
-
+{% include list.html data="members" component="portrait" filters="role: scientist" %}
 ---
 ## International PhD students
 We highly recommend that potential international PhD students apply ASTAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
