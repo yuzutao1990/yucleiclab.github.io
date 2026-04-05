@@ -7,9 +7,11 @@ nav:
  
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
-We always seek highly motivated students and young scientists to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **yuzt@gis.a-star.edu.sg** with the email title “Internship/Scientist/Research Officer Application_ASTAR”.
+Opening position (April 2026): A Research Officer position is immediately available. The role involves ~20% lab management and ~80% wet-lab experimental work.
 
-We welcome visiting scholars and students interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us!
+We always seek highly motivated students and young scientists to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. 
+
+We welcome visiting scholars and motivated students (local interns) interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us! For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **yuzt@a-star.edu.sg** with the email title “Internship/Scientist/Research Officer Application_ASTAR”.
 
 ---
 
