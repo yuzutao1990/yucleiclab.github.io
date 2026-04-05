@@ -51,6 +51,6 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 
 Internal resources including protocols, meeting notes, and lab documents are available to lab members only.
 
-{% include button.html text="Access Lab Drive" link="[https://drive.google.com/drive/folders/YOUR_FOLDER_ID](https://drive.google.com/drive/folders/1_pdI3qvJMiozR4_rBEYLgqmKZJK3PZPM?usp=drive_link)" icon="fa-brands fa-google-drive" %}
+{% include button.html text="Access Lab Drive" link="https://drive.google.com/drive/folders/1_pdI3qvJMiozR4_rBEYLgqmKZJK3PZPM?usp=drive_link" icon="fa-brands fa-google-drive" %}
 
 ---
