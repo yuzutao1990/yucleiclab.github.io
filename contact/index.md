@@ -7,11 +7,13 @@ nav:
  
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
-Opening position (April 2026): A Research Officer position is immediately available. The role involves ~20% lab management and ~80% wet-lab experimental work.
+**Opening position (April 2026):** A Research Officer position is immediately available. The role involves ~20% lab management and ~80% wet-lab experimental work.
 
-We always seek highly motivated students and young scientists to join our team and contribute to innovative **RNA- and DNA-targeted therapeutic discovery**. 
+## International PhD students
+We highly recommend that potential international PhD students apply A*STAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
 
-We welcome visiting scholars and motivated students (local interns) interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us! For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **yuzt@a-star.edu.sg** with the email title “Internship/Scientist/Research Officer Application_ASTAR”.
+## Visiting Scholars & Students
+We welcome visiting scholars, students, and interns interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us! For inquiries or to apply, please email your **CV** and **brief research interest** to **Zutao Yu** at **yuzt@a-star.edu.sg** with the email title “Internship/Scientist/Research Officer Application_ASTAR”.
 
 ---
 
