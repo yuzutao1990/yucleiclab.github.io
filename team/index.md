@@ -23,7 +23,7 @@ nav:
 
 # Meet Our Team
 
-We’re a new research group, based at the Genome Institute of Singapore (GIS), A*STAR. We're always keen to hear from talented and curious scientists, visiting students, and visiting scholars interested in joining the lab!
+We’re a thriving research group and always keen to hear from self-motivated and curious scientists, visiting students, and visiting scholars interested in joining the lab!
 
 ## Principal Investigator
 
