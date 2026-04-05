@@ -1,9 +1,11 @@
 ---
-name: Bryan Ng Yik Loong
+name: Dr. Bryan Ng Yik Loong
 image: images/bryan.jpg
 role: scientist
 title: Scientist
-links: bryan_Ng@a-star.edu.sg
+links: 
+ email: bryan_Ng@a-star.edu.sg
 education: >
-  Ph.D. National University of Singapore, 2025
+  Ph.D. NUS, 2025
+  
 ---
