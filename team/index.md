@@ -48,8 +48,3 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 {% include list.html data="members" component="portrait" %}
 
 ---
-## International PhD students
-We highly recommend that potential international PhD students apply ASTAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
-
-## Visiting Scholars & Students
-We welcome visiting scholars and students interested in chemical biology, nucleic acids, and genomic medicine. If you're passionate about cutting-edge research in these areas, we encourage you to join us!
