@@ -4,7 +4,7 @@
   <div href="{{ member.url | relative_url | uri_escape }}" class="portrait" data-style="{{ include.style }}" aria-label="{{ member.name }}">
     <img src="{{ member.image | relative_url | uri_escape }}" class="portrait-image" alt="member portrait" loading="lazy" {% include fallback.html %}>
     {% if member.name %}<span class="portrait-name">{{ member.name }}</span>{% endif %}
-    {% if member.title %}<span class="portrait-description">{{ member.title }}</span>{% endif %}
+    {% if member.title %}<span class="portrait-role">{{ member.title }}</span>{% endif %}
     {% if member.links.email %}<span class="portrait-description">{{ member.links.email }}</span>{% endif %}
     {% if member.education %}
       <span class="portrait-description">
