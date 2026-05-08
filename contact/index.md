@@ -7,8 +7,8 @@ nav:
  
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
-**Opening position (April 2026)** 
-A Research Officer position is immediately available. The role involves ~20% lab management and ~80% wet-lab experimental work. To apply, please email your CV and brief research interest to yuzt@a-star.edu.sg with the email title “Research Officer Application_ASTAR”.
+**Opening positions (from July 2026)** 
+We will have one postdoc and one RO position available soon. For inquiry, please email your CV and brief research interest to yuzt@a-star.edu.sg with the email title “Postdoc Application_ASTAR”.
 
 ## International PhD students
 We highly recommend that potential international PhD students apply A*STAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
