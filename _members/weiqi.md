@@ -1,6 +1,6 @@
 ---
 name: Weiqi Tan
-image: images/weiqi.jpg
+image: images/weiqi.jpeg
 role: ro
 title: Research officer
 links: 
