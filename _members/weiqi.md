@@ -2,7 +2,7 @@
 name: Weiqi Tan
 image: images/weiqi.jpeg
 role: ro
-title: Research officer
+title: Senior research officer
 links: 
   email: tan_weiqi@a-star.edu.sg
 description: >
