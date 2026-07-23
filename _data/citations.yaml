@@ -39,8 +39,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1073/pnas.2320240121
-  title: "G-quadruplex DNA structure is a positive regulator of\n            <i>MYC</i>\n\
-    \            transcription"
+  title: "G-quadruplex DNA structure is a positive regulator of\n                \
+    \    <i>MYC</i>\n                    transcription"
   authors:
   - Isabel Esain-Garcia
   - Angie Kirchner
