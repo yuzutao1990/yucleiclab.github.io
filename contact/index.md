@@ -10,6 +10,10 @@ nav:
 **Opening positions (instantly available)---23rd July 2026** 
 We are excited to look for two postdocs and one RO to join our vibrant team. For inquiries, please email your CV and brief research interests to yuzt@a-star.edu.sg with the email title “Postdoc Application_ASTAR”.
 
+Job application link:
+Chemical biology: https://careers.a-star.edu.sg/default/job/Scientist%2C-Chemical-Biologist-%28GIS%29/3084-en_GB
+Nucleic acid biology and therapeutics: https://careers.a-star.edu.sg/default/job/Scientist%2C-Nucleic-Acid-Biology-and-Therapeutics-%28GIS%29/3083-en_GB
+
 ## International PhD students
 We highly recommend that potential international PhD students apply A*STAR fully funded scholarship and join us as PhD students. For more information, please visit: SINGA (https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa); and contact us for research topics.
 
