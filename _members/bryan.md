@@ -7,5 +7,5 @@ links:
  email: bryan_Ng@a-star.edu.sg
 education: >
   Ph.D. NUS, 2025
-  
+ visible: false
 ---
