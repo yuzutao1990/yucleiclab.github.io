@@ -20,6 +20,7 @@
   {% endif %}
 
   {% for d in data %}
+    {% if d.visible != false %}
     {% assign style = d.style | default: include.style %}
 
     {%
@@ -57,5 +58,6 @@
       url=d.url
       width=d.width
     %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
