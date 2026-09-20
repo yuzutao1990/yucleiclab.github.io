@@ -6,5 +6,7 @@ title: Intern
 description: >
   BSc. NTU, 2027
 links: 
-visible: false
+status: past
+period: 2025-2026
+visible: true
 ---
