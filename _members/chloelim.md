@@ -6,5 +6,7 @@ title: Intern
 description: >
   BSc. Newcastle Uni., 2026
 links: 
-visible: false
+visible: true
+status: past
+period: 2025-2026
 ---
