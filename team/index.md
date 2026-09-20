@@ -43,9 +43,22 @@ We’re a thriving research group and always keen to hear from self-motivated an
 
 Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies to modulate functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
+
 ## Lab members
 
-{% include list.html data="members" component="portrait" %}
+{% include list.html data="members" component="portrait" filter='status != "past"' %}
+
+## Past members
+
+{% assign past_members = site.members | data_filter: 'status == "past" and visible != false' %}
+
+<ul>
+{% for member in past_members %}
+  <li>
+    <strong>{{ member.name }}</strong>{% if member.period %}, {{ member.period }}{% endif %}
+  </li>
+{% endfor %}
+</ul>
 
 ## Lab Intranet
 
