@@ -4,7 +4,7 @@
 {% assign logo = svg | default: nil %}
 <header
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  style="--image: url('{{ image | relative_url | uri_escape }}'); background: linear-gradient(135deg, #075985, #0284c7);"
   data-dark="{{ dark }}"
   {% if page.url == "/" %}data-big{% endif %}
 >
