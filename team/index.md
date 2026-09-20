@@ -41,7 +41,7 @@ We’re a thriving research group and always keen to hear from self-motivated an
 </div>
 
 
-Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies to modulate functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
+Dr. Zutao Yu is interested in nucleic acid chemical biology. His work bridges chemical biology and genomic medicine. He is interested in elucidating the roles of the epigenome and (epi-) transcriptome in both physiological and pathological conditions and developing strategies to manipulate them by targeting DNA and RNA. He uses advanced chemical biology techniques, such as drug-chromatin interaction detection, bifunctional molecules, in situ on-target drug screening, and next-generation sequencing. His future research aims to innovate transcriptome- and genome-targeting strategies to modulate functional genomics in disease contexts like cancer, infectious diseases, and neurodegenerative disorders.
 
 
 ## Lab members
@@ -55,7 +55,7 @@ Dr. Zutao Yu is interested in nucleic acids chemical biology. His work bridges c
 <ul>
 {% for member in past_members %}
   <li>
-    <strong>{{ member.name }}</strong>{% if member.period %}, {{ member.period }}{% endif %}
+    <strong>{{ member.name }}</strong>{% if member.title %}, {{ member.title }}{% endif %}{% if member.period %}, {{ member.period }}{% endif %}
   </li>
 {% endfor %}
 </ul>
