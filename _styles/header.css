@@ -11,6 +11,10 @@ header {
   z-index: 10 !important;
 }
 
+header.background {
+  background: linear-gradient(135deg, #075985, #0284c7);
+}
+
 header a {
   color: var(--text);
   text-decoration: none;
