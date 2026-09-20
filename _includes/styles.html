@@ -1,51 +1,52 @@
+{% assign cache_bust = site.time | date: "%s" %}
 <!-- third party styles -->
 <link 
   href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
   rel="stylesheet"
 />
 <!-- site styles -->
-<link href="{{ '/_styles/-theme.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/alert.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/all.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/anchor.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/background.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/body.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/bold.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/button.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/card.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/checkbox.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/citation.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/code.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/cols.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/dark-toggle.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/details.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/feature.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/figure.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/float.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/font.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/footer.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/form.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/grid.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/header.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/heading.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/highlight.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/icon.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/image.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/link.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/list.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/main.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/paragraph.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/portrait.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/post-excerpt.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/post-info.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/post-nav.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/quote.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/rule.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/search-box.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/search-info.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/section.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/table.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/tags.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/textbox.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/tooltip.css' | relative_url }}" rel="stylesheet" />
-<link href="{{ '/_styles/util.css' | relative_url }}" rel="stylesheet" />
+<link href="{{ '/_styles/-theme.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/alert.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/all.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/anchor.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/background.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/body.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/bold.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/button.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/card.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/checkbox.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/citation.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/code.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/cols.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/dark-toggle.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/details.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/feature.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/figure.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/float.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/font.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/footer.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/form.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/grid.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/header.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/heading.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/highlight.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/icon.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/image.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/link.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/list.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/main.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/paragraph.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/portrait.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/post-excerpt.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/post-info.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/post-nav.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/quote.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/rule.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/search-box.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/search-info.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/section.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/table.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/tags.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/textbox.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/tooltip.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
+<link href="{{ '/_styles/util.css' | relative_url }}?v={{ cache_bust }}" rel="stylesheet" />
