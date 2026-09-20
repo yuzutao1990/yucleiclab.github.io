@@ -191,7 +191,7 @@
 
 <header
   class="background"
-  style="--image: url('')"
+  style="--image: url(''); background: linear-gradient(135deg, #075985, #0284c7);"
   data-dark="true"
   
 >
