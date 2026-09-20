@@ -10,7 +10,7 @@ footer {
 }
 
 footer.background {
-  background: linear-gradient(135deg, #075985, #0284c7);
+  background: linear-gradient(135deg, #075985, #0284c7) !important;
 }
 
 .footer-logos {
@@ -18,23 +18,35 @@ footer.background {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
-  padding: 14px 24px;
+  gap: 34px;
+  padding: 18px 30px;
   border-radius: 6px;
   background: #ffffff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1254901961);
 }
 
-.footer-logos a {
+.footer-logo-link {
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 220px;
+  height: 70px;
 }
 
-.footer-logos img {
+.footer-logo {
   display: block;
-  max-width: 190px;
-  max-height: 44px;
   object-fit: contain;
+}
+
+.footer-logo-astar {
+  max-width: 220px;
+  max-height: 62px;
+}
+
+.footer-logo-gis {
+  max-width: 220px;
+  max-height: 68px;
+  transform: scale(1.28);
 }
 
 footer a {
