@@ -9,6 +9,10 @@ footer {
   box-shadow: var(--shadow);
 }
 
+footer.background {
+  background: linear-gradient(135deg, #075985, #0284c7);
+}
+
 footer a {
   color: var(--text) !important;
 }
