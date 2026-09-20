@@ -3,7 +3,7 @@
 
 <footer
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}'); background: linear-gradient(135deg, #075985, #0284c7);"
+  style="--image: url('{{ image | relative_url | uri_escape }}'); background: linear-gradient(135deg, #075985, #0284c7) !important;"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -16,11 +16,11 @@
   -->
 
   <div class="footer-logos" aria-label="Institutional affiliations">
-    <a href="https://www.a-star.edu.sg/" target="_blank" rel="noopener" aria-label="A*STAR">
-      <img src="{{ '/images/ASTAR-logo.png' | relative_url }}" alt="A*STAR">
+    <a class="footer-logo-link" href="https://www.a-star.edu.sg/" target="_blank" rel="noopener" aria-label="A*STAR">
+      <img class="footer-logo footer-logo-astar" src="{{ '/images/ASTAR-logo.png' | relative_url }}" alt="A*STAR">
     </a>
-    <a href="https://www.a-star.edu.sg/gis" target="_blank" rel="noopener" aria-label="Genome Institute of Singapore">
-      <img src="{{ '/images/GIS-logo.png' | relative_url }}" alt="Genome Institute of Singapore">
+    <a class="footer-logo-link" href="https://www.a-star.edu.sg/gis" target="_blank" rel="noopener" aria-label="Genome Institute of Singapore">
+      <img class="footer-logo footer-logo-gis" src="{{ '/images/GIS-logo.png' | relative_url }}" alt="Genome Institute of Singapore">
     </a>
   </div>
 
