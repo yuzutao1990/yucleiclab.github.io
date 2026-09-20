@@ -16,6 +16,30 @@ footer.background {
   background: linear-gradient(135deg, #075985, #0284c7);
 }
 
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 14px 24px;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px #00000020;
+}
+
+.footer-logos a {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logos img {
+  display: block;
+  max-width: 190px;
+  max-height: 44px;
+  object-fit: contain;
+}
+
 footer a {
   color: var(--text) !important;
 }
