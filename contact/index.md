@@ -20,7 +20,6 @@ We highly recommend that potential PhD students apply A*STAR fully funded schola
 ## Students & Visiting Scholars
 We welcome students, interns, and visiting scholars interested in chemical biology, nucleic acids, and genomic medicine. If you’re passionate about cutting-edge research in these areas, we encourage you to join us! 
 
-For inquiries or to apply, please email your CV and brief research interests to yuzt@a-star.edu.sg with the email title “Internship/Scientist/Student Application_ASTAR”.
 ---
 
 ## 🌟 Why Join Us?
@@ -29,3 +28,4 @@ The **Genome Institute of Singapore (GIS), A*STAR** is the national flagship pro
 
 Join us in advancing RNA and DNA-targeted therapeutics and making an impact in **functional genomic medicine**! 🚀
 
+For inquiries or to apply, please email your CV and brief research interests to yuzt@a-star.edu.sg with the email title “Internship/Scientist/Student Application_ASTAR”.
