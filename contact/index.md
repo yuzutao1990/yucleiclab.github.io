@@ -7,8 +7,8 @@ nav:
  
 # {% include icon.html icon="fa-regular fa-envelope" %} Join Us
 
-**Opening positions (instantly available)---23rd July 2026** 
-We are excited to look for two postdocs and one RO to join our vibrant team. For inquiries, please email your CV and brief research interests to yuzt@a-star.edu.sg with the email title “Postdoc Application_ASTAR”.
+**Opening positions (instantly available)** 
+We are constantly looking for highly motivated postdocs to join our vibrant team. For inquiries, please email your CV and brief research interests to yuzt@a-star.edu.sg with the email title “Postdoc Application_ASTAR”.
 
 Job application link:
 Chemical biology: https://careers.a-star.edu.sg/default/job/Scientist%2C-Chemical-Biologist-%28GIS%29/3084-en_GB
