@@ -396,8 +396,11 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1021/acsomega.8b00220
-  title: Synthetic DNA-Binding Inhibitor of HES1 Alters the Notch Signaling Pathway
-    and Induces Neuronal Differentiation
+  title: 'Synthetic DNA-Binding Inhibitor
+
+    of HES1 Alters the Notch Signaling Pathway and Induces
+
+    Neuronal Differentiation'
   authors:
   - Yulei Wei
   - Ganesh N. Pandian
